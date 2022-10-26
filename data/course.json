@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Physics",
+    "picture": "https://thumbs.dreamstime.com/b/physics-doodles-lettering-physics-doodles-lettering-education-vector-illustration-137829167.jpg",
+    "description" : "Physics is the branch of science that deals with the structure of matter and how the fundamental constituents of the universe interact. It studies objects ranging from the very small using quantum mechanics to the entire universe using general relativity."
+  },
+  {
+    "id": 2,
+    "title": "Chemistry",
+    "picture": "https://img.freepik.com/free-vector/hand-drawn-chemistry-background_23-2148164901.jpg?w=2000",
+    "description" : "Chemistry is the branch of science that deals with the properties, composition, and structure of elements and compounds, how they can change, and the energy that is released or absorbed when they change."
+  },
+  {
+    "id": 3,
+    "title": "Mathematics",
+    "picture": "https://miro.medium.com/max/1400/1*L76A5gL6176UbMgn7q4Ybg.jpeg",
+    "description" : "Mathematics is used in science for modeling phenomena, which then allows predictions to be made from experimental laws. The independence of mathematical truth from any experimentation implies that the accuracy of such predictions depends only on the adequacy of the model."
+  },
+  {
+    "id": 4,
+    "title": "Biology",
+    "picture": "https://wallpaperaccess.com/full/5451375.png",
+    "description" : "biology, study of living things and their vital processes. The field deals with all the physicochemical aspects of life. The modern tendency toward cross-disciplinary research and the unification of scientific knowledge ."
+  },
+  {
+    "id": 5,
+    "title": "English",
+    "picture": "https://brownlowcollege.co.uk/wp-content/uploads/2018/02/Evening_English_1.jpg",
+    "description" : "Modern English has spread around the world since the 17th century as a consequence of the worldwide influence of the British Empire and the United States of America. Through all types of printed and electronic media of these countries."
+  },
+  {
+    "id": 6,
+    "title": "Bengali",
+    "picture": "https://d2jg2pri5bpndu.cloudfront.net/groups/photo/240/850_164de39ce463fb3c809aaff51d48c869.jpg",
+    "description" : "The modern literary form of Bengali was developed during the 19th and early 20th centuries based on the dialect spoken in the Nadia region, a west-central Bengali dialect.With the literary and standard form differing greatly from the colloquial speech of the regions that identify with the language."
+  }
+  
+
+  
+]
