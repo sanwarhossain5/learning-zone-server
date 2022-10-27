@@ -1,30 +1,28 @@
-const express = require('express');
-const cors = require('cors')
-
+const express = require('express')
 const app = express();
 const port = process.env.PORT || 5000;
+const categories = require('./data/course.json');
+const cors = require('cors');
 
+//middle-wares
 app.use(cors());
 
-const courses = require('./data/course.json');
+// get all data 
+app.get('/courses', (req, res) => {
+    res.send(categories)
+})
+// get single data 
+app.get('/courses/:id', (req, res) => {
+    const id = req.params.id;
+    const category = categories.find(item => item.id == id)
+    res.send(category);
+})
 
-
-app.get('/' , (req , res) =>{
-  res.send(' Learning API is running')
-}); 
-
-app.get('/courses' , (req , res) =>{
-  res.send(courses)
+app.get('/', (req, res) => {
+    res.send("<h1>Learning API Running</h1>");
 });
 
-app.get('/courses/:id' , (req , res) =>{
-
-  const id = parseInt(req.params.id);
-  const course = courses.find(course => course.id === id);
-  res.send(course)
-});
-
-
-app.listen(port , () =>{
-  console.log('Learning news server ' , port);
-});
+app.listen(port, () => {
+    console.log('Learning server running on port', port)
+}
+)
